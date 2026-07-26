@@ -1,0 +1,8 @@
+{
+  "name": "chunks",
+  "private": true,
+  "description": "Cliente JS para upload de arquivos em chunks via Content-Range",
+  "scripts": {
+    "test": "node --test"
+  }
+}

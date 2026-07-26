@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-  <title>Upload de Vídeo</title>
+  <meta charset="utf-8">
+  <title>Upload em chunks</title>
 </head>
 <body>
   <form>
     <input type="file" id="file">
   </form>
-  <script src="index.js">
-  </script>
+  <progress id="progress" value="0" max="100"></progress>
+  <p id="status"></p>
+
+  <script src="chunked-upload.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
