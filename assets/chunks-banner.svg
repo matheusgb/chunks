@@ -1,0 +1,30 @@
+<svg width="2172" height="724" viewBox="0 0 2172 724" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: "Arial Black", "Helvetica Neue", Arial, sans-serif; font-weight: 900; }
+      .tag { font-family: "Helvetica Neue", Arial, sans-serif; font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect width="2172" height="724" fill="#14161c"/>
+
+  <!-- a file being sliced into blocks, some already sent (filled), some pending (hollow) -->
+  <g>
+    <rect x="60"  y="430" width="220" height="110" fill="#ff4fa3"/>
+    <rect x="300" y="430" width="220" height="110" fill="#ff4fa3"/>
+    <rect x="540" y="430" width="220" height="110" fill="#ff4fa3"/>
+    <rect x="780" y="430" width="220" height="110" fill="none" stroke="#f5efe0" stroke-width="6"/>
+    <rect x="1020" y="430" width="220" height="110" fill="none" stroke="#f5efe0" stroke-width="6"/>
+    <rect x="1260" y="430" width="220" height="110" fill="none" stroke="#f5efe0" stroke-width="6"/>
+  </g>
+
+  <!-- upload arrow above the sent blocks -->
+  <line x1="280" y1="380" x2="280" y2="320" stroke="#ff4fa3" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 250 350 L 280 312 L 310 350" fill="none" stroke="#ff4fa3" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- word CHUNKS -->
+  <text x="60" y="300" class="title" font-size="190" fill="#f5efe0" letter-spacing="-2">CHUNKS</text>
+
+  <!-- tagline -->
+  <text x="64" y="640" class="tag" font-size="42" fill="#ff4fa3" letter-spacing="2">UPLOAD RESILIENTE DE ARQUIVOS GRANDES POR CONTENT-RANGE</text>
+</svg>
